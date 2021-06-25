@@ -24,5 +24,6 @@ Imports:
     httr,
     jsonlite,
     magrittr,
-    lifecycle
+    lifecycle,
+    rlang
 RdMacros: lifecycle

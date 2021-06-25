@@ -64,7 +64,7 @@ And lists
 create_mem(mem, API_Key)
 ````
 
-![example mem from the mem app](mem_example.png)
+![example mem from the mem app](img/mem_example.png)
 
 ## Future development
 
