@@ -30,7 +30,7 @@ create_mem(
 \item{createdAt}{(optional) Specify the time that the mem was created at. Defaults to the current time. This is a timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ}
 }
 \value{
-
+returns a list with the content id and response.
 }
 \description{
 This function creates a new Mem and adds it to your Inbox.
@@ -45,5 +45,11 @@ their \href{https://docs.mem.ai/docs/general/mem-markdown-format}{documentation}
 You'll need to create an API token in order to create a Mem. To do this,
 visit the \href{https://mem.ai/flows/api}{API Flow} within the Mem app. From this page, you'll be able to
 generate a new API access token for yourself.
+}
+}
+\examples{
+\dontrun{
+API_KEY <- Sys.getEnv("MEM_API")
+create_mem("Hello World!", API_KEY)
 }
 }

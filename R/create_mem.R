@@ -22,10 +22,14 @@
 #' @param scheduledFor (optional) Specify a time that this mem will resurface at (similar to the "snooze" button in the product UI). This is a timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ
 #' @param createdAt (optional) Specify the time that the mem was created at. Defaults to the current time. This is a timestamp in ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ
 #'
-#' @return
+#' @return returns a list with the content id and response.
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' API_KEY <- Sys.getEnv("MEM_API")
+#' create_mem("Hello World!", API_KEY)
+#' }
 create_mem <- function(content, API_KEY,
                        api_version = "v0",
                        isRead = NULL, isArchived = NULL,
