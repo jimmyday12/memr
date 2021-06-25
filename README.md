@@ -7,6 +7,8 @@
 
 [![R build
 status](https://github.com/jimmyday12/memr/workflows/R-CMD-check/badge.svg)](https://github.com/jimmyday12/memr/actions)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
 The goal of memr is to provide an interface to the
