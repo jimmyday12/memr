@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # memr
 
 <!-- badges: start -->
+[![R build status](https://github.com/jimmyday12/memr/workflows/R-CMD-check/badge.svg)](https://github.com/jimmyday12/memr/actions)
 <!-- badges: end -->
 
 The goal of memr is to provide an interface to the [mem.ai](https://get.mem.ai) platform within R via the [Mem API](https://docs.mem.ai/docs/) 

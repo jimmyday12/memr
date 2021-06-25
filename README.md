@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![R build
+status](https://github.com/jimmyday12/memr/workflows/R-CMD-check/badge.svg)](https://github.com/jimmyday12/memr/actions)
 <!-- badges: end -->
 
 The goal of memr is to provide an interface to the

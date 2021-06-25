@@ -36,8 +36,8 @@ create_mem <- function(content, API_KEY,
                        scheduledFor = NULL, createdAt = NULL) {
 
   # check arguments
-  if(!is.null(isRead) & !is.logical(isRead)) stop(rlang::abort("`isRead` should be logical"))
-  if(!is.null(isArchived) & !is.logical(isArchived)) stop(rlang::abort("`isArchived` should be logical"))
+  if (!is.null(isRead) & !is.logical(isRead)) stop(rlang::abort("`isRead` should be logical"))
+  if (!is.null(isArchived) & !is.logical(isArchived)) stop(rlang::abort("`isArchived` should be logical"))
 
   ua <- httr::user_agent("https://github.com/jimmyday12/memr")
 
