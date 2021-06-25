@@ -24,4 +24,6 @@ Language: en-US
 Imports: 
     httr,
     jsonlite,
-    magrittr
+    magrittr,
+    lifecycle
+RdMacros: lifecycle
